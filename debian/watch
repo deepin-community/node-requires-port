@@ -1,0 +1,5 @@
+version=3
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*=// \
+ http://qa.debian.org/cgi-bin/fakeupstream.cgi?upstream=npmjs/requires-port .*=requires-port-(\d.*)\.(?:tgz|tar\.(?:gz|bz2|xz))
